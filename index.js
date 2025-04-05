@@ -4,6 +4,7 @@ const mongoose = require("./config/db");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const consul = require("./middleware/consul");
+const axios = require("axios");
 
 
 const modules = require("./controllers/moduleController");

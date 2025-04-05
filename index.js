@@ -25,7 +25,7 @@ app.use("/organization", organization);
 app.get("/", (req, res) => res.send("Server is awake!"));
 
 // Keep-Alive Logic
-const KEEP_ALIVE_URL = "https://express-user-ccqv.onrender.com";
+const KEEP_ALIVE_URL = "https://express-mod.onrender.com";
 const CONSUL_URL = "https://consul-hn1i.onrender.com";
 
 const sendKeepAlive = async (url, name) => {

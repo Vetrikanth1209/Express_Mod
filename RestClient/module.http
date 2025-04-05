@@ -9,7 +9,7 @@ Content-Type: application/json
 }
 
 ### Get All Modules
-GET http://localhost:5000/modules/get_all_module
+GET https://express-mod.onrender.com/get_all_module
 
 ### Get Module by ID
 GET http://localhost:5000/modules/get_module_by_id/f4e59446-5b4b-4504-8932-f10f07794a90
